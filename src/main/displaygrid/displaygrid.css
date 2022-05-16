@@ -1,0 +1,15 @@
+.tasks-grid {
+    display: grid;
+    margin-top: 30px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tasks-grid .task-card {
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 0;
+    border: 10px solid darkslategray;
+    word-break: break-all;
+}

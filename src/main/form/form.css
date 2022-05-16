@@ -1,0 +1,21 @@
+.entry-form > input {
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    border: 5px solid mediumturquoise;
+    outline-color: mediumturquoise;
+    margin-right: 10px;
+}
+
+.entry-form > button {
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    background-color: mediumturquoise;
+    padding: 15px;
+    border-radius: 20px;
+    border: 0 none transparent;
+    outline-color: mediumturquoise;
+}
