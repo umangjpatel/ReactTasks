@@ -1,0 +1,27 @@
+.tasks-grid {
+    display: grid;
+    margin-top: 30px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tasks-grid .task-card {
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 0;
+    border: 10px solid darkslategray;
+    word-break: break-all;
+}
+
+.tasks-grid .task-card .task-item {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.tasks-grid .task-card .task-dates-info {
+    color: gray;
+    margin: 1px 0;
+}

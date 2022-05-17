@@ -1,0 +1,11 @@
+.nav {
+    border: 10px solid mediumvioletred;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav h1 {
+    font-size: xx-large;
+}
